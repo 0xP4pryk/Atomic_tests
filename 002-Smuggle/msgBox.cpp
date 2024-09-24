@@ -17,7 +17,7 @@ int main() {
             ltm->tm_year + 1900, ltm->tm_mon + 1, ltm->tm_mday,
             ltm->tm_hour, ltm->tm_min, ltm->tm_sec, username);
 
-    MessageBox(NULL, buffer, "HSBC Testing Box", MB_OK);
+    MessageBox(NULL, buffer, "Testing Box", MB_OK);
 
     return 0;
 }
