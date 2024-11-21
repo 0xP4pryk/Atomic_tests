@@ -10,6 +10,6 @@ foreach ($key in $keys) {
 
     # If "SD" value is not found, print the key and a warning message
     if (-not $sdValue) {
-        Write-Output "Key: $($key.Name) - This key can be vulnerable as it does not contain the 'SD' value."
+        Write-Output "Key: $($key.Name) - This key is suspicious due to missing 'SD' value."
     }
 }
